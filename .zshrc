@@ -1,3 +1,6 @@
+# depend on host
+DEFAULT_USER="ryan"
+
 # Path to your oh-my-zsh installation.
 export ZSH=/home/ryan/.oh-my-zsh
 
@@ -5,9 +8,10 @@ export ZSH=/home/ryan/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="xiong-chiamiov-plus"
 
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +55,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/opt/PostgreSQL/9.3/bin:/opt/PostgreSQL/9.3/pgAdmin3/bin:/home/ryan/.rvm/gems/ruby-1.9.3-p545/bin:/home/ryan/.rvm/gems/ruby-1.9.3-p545@global/bin:/home/ryan/.rvm/rubies/ruby-1.9.3-p545/bin:/usr/local/heroku/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/ryan/.rvm/bin:/home/ryan/Downloads/gradle-2.3/bin"
+export PATH="/opt/PostgreSQL/9.3/bin:/opt/PostgreSQL/9.3/pgAdmin3/bin:/home/ryan/.rvm/gems/ruby-1.9.3-p545/bin:/home/ryan/.rvm/gems/ruby-1.9.3-p545@global/bin:/home/ryan/.rvm/rubies/ruby-1.9.3-p545/bin:/usr/local/heroku/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/ryan/.rvm/bin:/home/ryan/Downloads/gradle-2.3/bin:/home/ryan/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
