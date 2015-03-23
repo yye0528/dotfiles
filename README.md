@@ -3,14 +3,35 @@ configuration files that mostly taken from others.
 
 ## dependencies of zsh configuration:
 
-### agnoster theme
-to use zsh agnoster theme in Ubuntu, install [solarized](https://github.com/altercation/solarized) color theme first
+### zsh
 
-the font is broken in the most recent version of oh-my-zsh for Ubuntu. Fall back to use the old version of agnoster theme:
 ```
-cd ~/.oh-my-zsh/themes/
-git checkout  d6a36b1 agnoster.zsh-theme
+sudo apt-get install zsh
 ```
+
+### oh-my-zsh 
+
+via curl
+
+```
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+via wget
+
+```
+wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+```
+
+### change default shell
+
+```
+chsh -s /usr/bin/zsh $USER
+```
+
+### agnoster theme and the fonts
+terminal color theme: [solarized](https://github.com/altercation/solarized)
+fonts support: [Patched Powerline fonts](https://github.com/powerline/fonts). 
+Fonts can be changed in terminal profile preferences. The 12px "Ubuntu Mono Derivative Powerline" works fine.
 
 ### zsh syntax highlighter
 install and use the zsh syntax highlighter plugin
