@@ -29,8 +29,10 @@ chsh -s /usr/bin/zsh $USER
 ```
 
 ### agnoster theme and the fonts
-terminal color theme: [solarized](https://github.com/altercation/solarized)
+terminal color theme: [solarized color theme for genome terminal](https://github.com/Anthony25/gnome-terminal-colors-solarized)
+
 fonts support: [Patched Powerline fonts](https://github.com/powerline/fonts). 
+
 Fonts can be changed in terminal profile preferences. The 12px "Ubuntu Mono Derivative Powerline" works fine.
 
 ### zsh syntax highlighter
