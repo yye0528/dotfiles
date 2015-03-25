@@ -79,3 +79,5 @@
 
 	# Detect copies as well as renames
 	renames = copies
+[url "https://"]
+	insteadOf = git://
